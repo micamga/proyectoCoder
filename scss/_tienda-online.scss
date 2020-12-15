@@ -1,0 +1,39 @@
+.gridCatalogos { 
+	margin-left: 40px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px; 
+    grid-template-rows: repeat(2, 1fr);
+    padding: 20px;
+    align-content: space-evenly;
+    img &:hover {
+	transform: translateY(-10px);
+}
+}
+.pediPorWa p {
+	font-size: 180%;
+	font-weight: 50%;
+	font-family: $fontTitle;
+}
+.escalerita1 {
+	margin-left: 100px
+}
+.escalerita2 {
+	margin-left: 120px
+}
+.escalerita3 {
+	margin-left: 140px
+}
+.giftcards {
+	display: inline-block;
+	background: lavender;
+	padding: 5px;
+
+ li {
+ 	text-decoration: none;
+	line-height:1.5;
+ &:hover {
+	background: pink;
+}
+}
+}

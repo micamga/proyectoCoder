@@ -1,0 +1,15 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+	.gridCatalogos  { 
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+	} 
+	.contacto {
+	background-color: lavender;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(4, 1fr);
+	}
+}
+

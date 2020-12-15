@@ -1,0 +1,92 @@
+/*Body*/
+body {
+	background-color: $colorLilac;
+}
+/*Header*/
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	padding:0;	
+	margin: auto;
+	li {
+	padding: 20px;
+	letter-spacing:1.5px;
+	font-family: $fontNavbar;
+	&:hover {
+	background-color: lavender;
+			}
+		}
+}
+#menu {
+	
+	flex-grow: 0;
+}
+#menu, .navbar-toggler { 
+background-color: pink;
+}
+.navbar-toggler {
+	margin: 15px;
+}
+/*Main*/
+main {
+	nav{
+		.breadcrumb{
+			display: flex;
+			justify-content: flex-end;
+			background-color: $colorLilac;
+		}
+	}
+}
+.titulos__micaScott {
+	color: $colorPuple;
+	font-family: $fontTitle;
+	font-size: 600%;
+	margin: 0px 0px 20px 20px;
+	padding: 40px 0px 20px 20px;
+}
+.titulos__secciones {
+	font-family: $fontH2;
+	font-size: 170%;
+	margin-left: 40px;
+}
+li {
+	color: $colorPuple;
+	list-style-type: none;
+}
+a {
+	color: $colorPuple;
+	text-decoration: none;
+}
+
+
+h1	{
+	color:$colorPuple;	
+}
+h2	{
+	@include colors;
+	font-family: $fontH2;
+}
+span	{
+	@include colors;
+	font-size: 20px;
+	font-family: $fontNavbar;
+}
+/*Footer*/
+.geografia {
+	color:$colorPuple;
+	padding-left: 20px;
+}
+.navRedes li {
+	display: inline-block;
+	padding: 10px;
+	&:hover {
+	transform: translateY(10px);
+}
+}
+
+.copyright {
+	color: $colorPuple ; 
+	text-align: right;
+	font-size: 80%;
+	margin-right: 20px;
+} 

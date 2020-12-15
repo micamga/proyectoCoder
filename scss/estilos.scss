@@ -1,0 +1,20 @@
+$colorLilac: #e1c9f0 ;
+$colorPuple: #0d0438 ;
+$fontTitle: 'caveat', cursive ;
+$fontNavbar: 'Staatliches', cursive ;
+$fontH2: 'Playfair Display SC', serif ;
+@mixin colors{
+	color:$colorPuple; 
+	background-color: pink;
+}
+
+@import "body";
+@import "index";
+@import "tienda-online";
+@import "sobre-mi";
+@import "contacto";
+@import "jquery-smallmobile";
+@import "jquery-mobile";
+@import "jquery-tablet";
+@import "jquery-desktop";
+

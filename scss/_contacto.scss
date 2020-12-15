@@ -1,0 +1,14 @@
+form {
+	line-height:2.5;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+#enviarFormulario {
+	margin-bottom: 25px;
+}
+.contacto {
+	background-color: lavender;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(4, 1fr);
+}
