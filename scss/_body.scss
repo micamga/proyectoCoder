@@ -45,12 +45,15 @@ main {
 	padding: 40px 0px 20px 20px;
 }
 .titulos__secciones {
-	font-family: $fontH2;
+	font-family: $fontNavbar;
 	font-size: 170%;
 	margin-left: 40px;
+	margin-bottom: 40px;
 }
 li {
 	color: $colorPuple;
+	margin-top: 15px;
+	/*font-size: 120%;*/
 	list-style-type: none;
 }
 a {
@@ -64,8 +67,7 @@ h1	{
 }
 h2	{
 	@include colors;
-	font-family: $fontH2;
-}
+	}
 span	{
 	@include colors;
 	font-size: 20px;
