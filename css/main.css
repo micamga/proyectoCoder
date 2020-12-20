@@ -45,8 +45,6 @@ main nav .breadcrumb {
 
 li {
   color: #0d0438;
-  margin-top: 15px;
-  /*font-size: 120%;*/
   list-style-type: none; }
 
 a {
@@ -57,6 +55,7 @@ h1 {
   color: #0d0438; }
 
 h2 {
+  margin: 15px 0px 15px 0px;
   color: #0d0438;
   background-color: pink; }
 
@@ -83,11 +82,18 @@ span {
   font-size: 80%;
   margin-right: 20px; }
 
+body {
+  /*background-image: url(../imagenes/back.png);*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
 #micaScott {
-  color: lavender;
+  color: #0d0438;
   font-family: "caveat", cursive;
   font-size: 600%;
-  margin: 40px 0px 20px 20px;
+  margin: 40px 0px 20px 50px;
   padding: 40px 0px 20px 20px; }
 
 #makeupBeautyArt {
@@ -98,10 +104,6 @@ span {
   margin-left: 120px;
   background: #e1c9f0;
   animation: fadeInRight 3s; }
-
-#backgroundImage {
-  background-image: url(https://scontent.faep8-2.fna.fbcdn.net/v/t1.0-9/46972254_312034736301775_1206967861231222784_n.jpg?_nc_cat=109&ccb=2&_nc_sid=0debeb&_nc_eui2=AeHsNHJ7p1vUzDmU4OoPk1amvlkRxKtw7BW-WRHEq3DsFX-HhJgOBT8GWH5geBsPVCg&_nc_ohc=1sC2SBzpPFIAX_idYez&_nc_ht=scontent.faep8-2.fna&oh=9bb6c3301504d20e9343afae41fc2022&oe=5FFEA214);
-  background-size: 100%; }
 
 #footerIndex {
   margin-top: 460px; }
