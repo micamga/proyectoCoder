@@ -238,9 +238,8 @@ form {
   align-content: center; }
   .contacto img {
     padding: 40px 40px 40px 40px;
-    /*margin: 50px 0px 40px 0px;*/
-    animation: fadeInRight 1s;
-    align-content: center; }
+    margin: 50px 0px 40px 0px;
+    animation: fadeInRight 1s; }
 
 @media (max-width: 575.98px) {
   /*Cursos*/

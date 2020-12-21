@@ -18,13 +18,9 @@ form {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-content:center;
- 	
-	img {
+ 	img {
 		padding: 40px 40px 40px 40px;
-		/*margin: 50px 0px 40px 0px;*/
+		margin: 50px 0px 40px 0px;
 		animation: fadeInRight 1s;
-		align-content:center;
-		
-	}
-		
+	}	
 }
