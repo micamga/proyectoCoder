@@ -122,7 +122,7 @@ body {
   grid-template-rows: repeat(2, 1fr);
   padding: 20px;
   align-content: space-evenly; }
-  img .gridCatalogos:hover {
+  img .gridCatalogos div a:hover {
     transform: translateY(-10px); }
 
 .pediPorWa p {
