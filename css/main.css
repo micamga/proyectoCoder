@@ -99,7 +99,7 @@ body {
   color: #0d0438;
   font-family: "caveat", cursive;
   font-size: 600%;
-  margin: 40px 0px 20px 0px;
+  margin: 40px 0px 20px 40px;
   padding: 40px 0px 20px 20px; }
 
 #makeupBeautyArt {
@@ -238,8 +238,9 @@ form {
   align-content: center; }
   .contacto img {
     padding: 40px 40px 40px 40px;
-    margin: 50px 0px 40px 0px;
-    animation: fadeInRight 1s; }
+    /*margin: 50px 0px 40px 0px;*/
+    animation: fadeInRight 1s;
+    align-content: center; }
 
 @media (max-width: 575.98px) {
   /*Cursos*/
@@ -295,7 +296,7 @@ form {
     flex-wrap: wrap; } }
 
 #footerIndex {
-  margin-top: 30px; }
+  /*margin-top: 30px*/ }
 
 /*Contacto*/
 .contacto img {
@@ -356,8 +357,8 @@ form {
     display: flex;
     flex-wrap: wrap; }
   img {
-    padding: 40px 40px 40px 40px;
-    margin: 10px 0px 40px 0px;
+    /*padding: 40px 40px 40px 40px;
+		margin: 10px 0px 40px 0px;*/
     animation: fadeInRight 1s; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -380,7 +381,14 @@ form {
     grid-template-areas: "article1"  "article2" "article3" "article4"; }
   .contacto {
     display: flex;
-    flex-wrap: wrap; } }
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center; }
+    .contacto img {
+      padding: 40px 40px 40px 40px;
+      margin: 0px 0px 40px 0px;
+      animation: fadeInUp 1s; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .gridCatalogos {
