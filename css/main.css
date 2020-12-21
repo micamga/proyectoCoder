@@ -68,6 +68,10 @@ span {
   font-size: 20px;
   font-family: "Staatliches", cursive; }
 
+/*Cursos*/
+.imagenClases {
+  margin: 0px 0px 30px 40px; }
+
 /*Footer*/
 .geografia {
   color: #0d0438;
@@ -238,6 +242,10 @@ form {
     animation: fadeInRight 1s; }
 
 @media (max-width: 575.98px) {
+  /*Cursos*/
+  .imagenClases {
+    margin: 0px 0px 30px 0px; }
+  /*Catalogos*/
   .gridCatalogos {
     display: grid;
     grid-template-columns: 1fr;
@@ -248,16 +256,57 @@ form {
     margin-left: 10px; }
   .escalerita3 {
     margin-left: 10px; }
+  /*Sobre mi*/
   .sobreMi {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "article1"  "article2" "article3" "article4"; }
+  .container {
+    position: relative; }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; }
+  .container .image {
+    opacity: 0.3; }
+  .container .middle {
+    opacity: 1; }
+  .text {
+    background-color: pink;
+    color: #0d0438;
+    font-size: 130%; }
   .contacto {
     display: flex;
     flex-wrap: wrap; } }
+
+#footerIndex {
+  margin-top: 30px; }
+
+/*Contacto*/
+.contacto img {
+  padding: 40px 40px 40px 40px;
+  margin: 10px 0px 40px 0px;
+  animation: fadeInRight 1s; }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /*Cursos*/
+  .imagenClases {
+    margin: 0px 0px 30px 0px; }
   .gridCatalogos {
     display: grid;
     grid-template-columns: 1fr;
@@ -268,16 +317,52 @@ form {
     margin-left: 10px; }
   .escalerita3 {
     margin-left: 10px; }
+  /*Sobre mi*/
   .sobreMi {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "article1"  "article2" "article3" "article4"; }
+  .container {
+    position: relative; }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; }
+  .container .image {
+    opacity: 0.3; }
+  .container .middle {
+    opacity: 1; }
+  .text {
+    background-color: pink;
+    color: #0d0438;
+    font-size: 130%; }
+  /*Contacto*/
   .contacto {
     display: flex;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  img {
+    padding: 40px 40px 40px 40px;
+    margin: 10px 0px 40px 0px;
+    animation: fadeInRight 1s; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  #footerIndex {
+    margin-top: 530px; }
   .gridCatalogos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
