@@ -1,11 +1,12 @@
 $colorLilac: #e1c9f0 ;
 $colorPuple: #0d0438 ;
+$colorPinky: pink ;
 $fontTitle: 'caveat', cursive ;
 $fontNavbar: 'Staatliches', cursive ;
 $fontH2: 'Playfair Display SC', serif ;
 @mixin colors{
 	color:$colorPuple; 
-	background-color: pink;
+	background-color:$colorPinky;
 }
 
 @import "body";

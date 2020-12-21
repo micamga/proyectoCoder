@@ -9,7 +9,7 @@ body {
 	padding:0;	
 	margin: auto;
 	li {
-	padding: 20px;
+	padding: 15px 25px 15px 25px;
 	letter-spacing:1.5px;
 	font-family: $fontNavbar;
 	&:hover {
@@ -18,11 +18,10 @@ body {
 		}
 }
 #menu {
-	
 	flex-grow: 0;
 }
 #menu, .navbar-toggler { 
-background-color: pink;
+background-color: $colorPinky;
 }
 .navbar-toggler {
 	margin: 15px;
@@ -34,20 +33,24 @@ main {
 			display: flex;
 			justify-content: flex-end;
 			background-color: $colorLilac;
+			&:hover{
+			color: $colorLilac;
+			}
 		}
 	}
 }
 .titulos__micaScott {
 	color: $colorPuple;
+	background-color: $colorLilac;
 	font-family: $fontTitle;
 	font-size: 600%;
 	margin: 0px 0px 20px 20px;
-	padding: 40px 0px 20px 20px;
+	padding: 0px 0px 20px 20px;
 }
 .titulos__secciones {
 	font-family: $fontNavbar;
 	font-size: 170%;
-	margin-left: 40px;
+	/*margin-left: 40px;*/
 	margin-bottom: 40px;
 }
 li {

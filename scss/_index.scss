@@ -1,5 +1,4 @@
 body {
-	/*background-image: url(../imagenes/back.png);*/
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -10,9 +9,10 @@ body {
 	color: $colorPuple;
 	font-family: $fontTitle;
 	font-size: 600%;
-	margin: 40px 0px 20px 50px;
+	margin: 40px 0px 20px 0px;
 	padding: 40px 0px 20px 20px;	
 }
+
 #makeupBeautyArt {
 	color: $colorPuple;
 	font-family: $fontNavbar;
@@ -22,6 +22,7 @@ body {
 	background: $colorLilac;
 	animation: fadeInRight 3s;
 }
+
 #footerIndex {
 	margin-top: 460px
 }

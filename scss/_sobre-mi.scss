@@ -14,7 +14,7 @@
   .article#{$i} {
   	grid-area: article#{$i}; 
   	background-color: lavender;
-	justify-self: center;
+	 justify-self: center;
 	align-self: center;
   }
 }
@@ -54,7 +54,7 @@
 }
 
 .text {
-  background-color:pink ;
+  background-color: $colorPinky;
   color: $colorPuple;
   font-size: 130%;
  }

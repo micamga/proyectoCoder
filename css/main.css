@@ -9,7 +9,7 @@ body {
   padding: 0;
   margin: auto; }
   .navbar li {
-    padding: 20px;
+    padding: 15px 25px 15px 25px;
     letter-spacing: 1.5px;
     font-family: "Staatliches", cursive; }
     .navbar li:hover {
@@ -29,18 +29,21 @@ main nav .breadcrumb {
   display: flex;
   justify-content: flex-end;
   background-color: #e1c9f0; }
+  main nav .breadcrumb:hover {
+    color: #e1c9f0; }
 
 .titulos__micaScott {
   color: #0d0438;
+  background-color: #e1c9f0;
   font-family: "caveat", cursive;
   font-size: 600%;
   margin: 0px 0px 20px 20px;
-  padding: 40px 0px 20px 20px; }
+  padding: 0px 0px 20px 20px; }
 
 .titulos__secciones {
   font-family: "Staatliches", cursive;
   font-size: 170%;
-  margin-left: 40px;
+  /*margin-left: 40px;*/
   margin-bottom: 40px; }
 
 li {
@@ -83,7 +86,6 @@ span {
   margin-right: 20px; }
 
 body {
-  /*background-image: url(../imagenes/back.png);*/
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -93,7 +95,7 @@ body {
   color: #0d0438;
   font-family: "caveat", cursive;
   font-size: 600%;
-  margin: 40px 0px 20px 50px;
+  margin: 40px 0px 20px 0px;
   padding: 40px 0px 20px 20px; }
 
 #makeupBeautyArt {
@@ -212,18 +214,28 @@ body {
   font-size: 130%; }
 
 form {
+  background-color: pink;
   line-height: 2.5;
-  margin-top: 20px;
-  margin-left: 40px; }
+  text-align: center;
+  padding: 40px 40px 40px 40px;
+  margin: 40px 0px 40px 0px; }
 
 #enviarFormulario {
   margin-bottom: 25px; }
 
+.contactoFondo {
+  background-color: lavender; }
+
 .contacto {
-  background-color: lavender;
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: repeat(4, 1fr); }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center; }
+  .contacto img {
+    padding: 40px 40px 40px 40px;
+    margin: 50px 0px 40px 0px;
+    animation: fadeInRight 1s; }
 
 @media (max-width: 575.98px) {
   .gridCatalogos {
