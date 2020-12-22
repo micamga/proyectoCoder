@@ -8,9 +8,11 @@
     align-content: space-evenly;
     div {
     	a {
-    		img &:hover {
+    		img {
+    			&:hover {
 	transform: translateY(-10px);
-}
+						}
+ 			   	}
     	}
     }
 }
