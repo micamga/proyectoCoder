@@ -1,26 +1,31 @@
-form {
+
+#enviarFormulario {
+	margin-bottom: 25px;
+}
+
+
+ .contacto {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items:center;
+	background-color: lavender;
+
+	.fondoFormulario {
+	form {
 	background-color: $colorPinky;
 	line-height:2.5;
 	text-align: center;
 	padding: 40px 40px 40px 40px;
 	margin: 40px 0px 40px 0px;
 }
-#enviarFormulario {
-	margin-bottom: 25px;
 }
-
-.contactoFondo {
-	background-color: lavender;
-}
-.contacto {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-content:center;
- 	img {
+ 	.imgContacto {
+ 		margin: auto 30px;
+ 		/*align-self: center;
 		padding: 40px 40px 40px 40px;
-		margin: 50px 0px 40px 0px;
+		margin: 50px 0px 40px 0px;*/
 		animation: fadeInRight 1s;
 	}	
 }
