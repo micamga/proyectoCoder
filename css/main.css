@@ -1,6 +1,6 @@
 /*Body*/
 body {
-  background-color: #e1c9f0; }
+  background-color: #ffffff; }
 
 /*Header*/
 .navbar {
@@ -13,13 +13,13 @@ body {
     letter-spacing: 1.5px;
     font-family: "Staatliches", cursive; }
     .navbar li:hover {
-      background-color: lavender; }
+      background-color: rgba(225, 201, 240, 0.8); }
 
 #menu {
   flex-grow: 0; }
 
 #menu, .navbar-toggler {
-  background-color: pink; }
+  background-color: #ffffff; }
 
 .navbar-toggler {
   margin: 15px; }
@@ -28,13 +28,12 @@ body {
 main nav .breadcrumb {
   display: flex;
   justify-content: flex-end;
-  background-color: #e1c9f0; }
+  background-color: #ffffff; }
   main nav .breadcrumb:hover {
     color: #e1c9f0; }
 
 .titulos__micaScott {
   color: #0d0438;
-  background-color: #e1c9f0;
   font-family: "caveat", cursive;
   font-size: 600%;
   margin: 0px 0px 20px 20px;
@@ -43,7 +42,7 @@ main nav .breadcrumb {
 .titulos__secciones {
   font-family: "Staatliches", cursive;
   font-size: 170%;
-  /*margin-left: 40px;*/
+  padding: 2px 0px 2px 40px;
   margin-bottom: 40px; }
 
 li {
@@ -95,19 +94,19 @@ body {
   background-attachment: fixed;
   background-size: cover; }
   body #micaScott {
-    color: #0d0438;
+    color: #000000;
     font-family: "caveat", cursive;
     font-size: 600%;
     margin: 40px 0px 20px 40px;
     padding: 40px 0px 20px 20px; }
   body #makeupBeautyArt {
-    color: #0d0438;
+    color: black;
     font-family: "Staatliches", cursive;
     font-size: 200%;
     letter-spacing: 2px;
-    margin-left: 120px;
-    background: #e1c9f0;
-    animation: fadeInRight 3s; }
+    padding-left: 45vw;
+    background: rgba(255, 255, 255, 0.3);
+    animation: fadeInUp 3s; }
   body #footerIndex {
     margin-top: 440px; }
 
@@ -156,25 +155,25 @@ body {
 
 .article1 {
   grid-area: article1;
-  background-color: lavender;
+  background-color: #e1c9f0;
   justify-self: center;
   align-self: center; }
 
 .article2 {
   grid-area: article2;
-  background-color: lavender;
+  background-color: #e1c9f0;
   justify-self: center;
   align-self: center; }
 
 .article3 {
   grid-area: article3;
-  background-color: lavender;
+  background-color: #e1c9f0;
   justify-self: center;
   align-self: center; }
 
 .article4 {
   grid-area: article4;
-  background-color: lavender;
+  background-color: #e1c9f0;
   justify-self: center;
   align-self: center; }
 
@@ -222,9 +221,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: lavender; }
+  background-color: rgba(225, 201, 240, 0.8); }
   .contacto .fondoFormulario form {
-    background-color: pink;
+    background-color: #ffffff;
     line-height: 2.5;
     text-align: center;
     padding: 40px 40px 40px 40px;

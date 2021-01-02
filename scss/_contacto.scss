@@ -10,11 +10,11 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items:center;
-	background-color: lavender;
+	background-color: rgba($colorLilac, 0.8);
 
 	.fondoFormulario {
 	form {
-	background-color: $colorPinky;
+	background-color: $colorWhite;
 	line-height:2.5;
 	text-align: center;
 	padding: 40px 40px 40px 40px;

@@ -1,6 +1,6 @@
 /*Body*/
 body {
-	background-color: $colorLilac;
+	background-color: $colorWhite;
 }
 /*Header*/
 .navbar {
@@ -8,12 +8,13 @@ body {
 	justify-content: flex-end;
 	padding:0;	
 	margin: auto;
+
 	li {
 	padding: 15px 25px 15px 25px;
 	letter-spacing:1.5px;
 	font-family: $fontNavbar;
 	&:hover {
-	background-color: lavender;
+	background-color:rgba($colorLilac, 0.8);
 			}
 		}
 }
@@ -21,7 +22,7 @@ body {
 	flex-grow: 0;
 }
 #menu, .navbar-toggler { 
-background-color: $colorPinky;
+background-color: $colorWhite;
 }
 .navbar-toggler {
 	margin: 15px;
@@ -32,7 +33,7 @@ main {
 		.breadcrumb{
 			display: flex;
 			justify-content: flex-end;
-			background-color: $colorLilac;
+			background-color: $colorWhite;
 			&:hover{
 			color: $colorLilac;
 			}
@@ -41,7 +42,6 @@ main {
 }
 .titulos__micaScott {
 	color: $colorPuple;
-	background-color: $colorLilac;
 	font-family: $fontTitle;
 	font-size: 600%;
 	margin: 0px 0px 20px 20px;
@@ -50,7 +50,7 @@ main {
 .titulos__secciones {
 	font-family: $fontNavbar;
 	font-size: 170%;
-	/*margin-left: 40px;*/
+	padding: 2px 0px 2px 40px;
 	margin-bottom: 40px;
 }
 li {

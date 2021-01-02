@@ -13,7 +13,7 @@
 @for $i from 1 through 4 {
   .article#{$i} {
   	grid-area: article#{$i}; 
-  	background-color: lavender;
+  	background-color: $colorLilac;
 	 justify-self: center;
 	align-self: center;
   }
