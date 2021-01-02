@@ -94,25 +94,22 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
-
-#micaScott {
-  color: #0d0438;
-  font-family: "caveat", cursive;
-  font-size: 600%;
-  margin: 40px 0px 20px 40px;
-  padding: 40px 0px 20px 20px; }
-
-#makeupBeautyArt {
-  color: #0d0438;
-  font-family: "Staatliches", cursive;
-  font-size: 200%;
-  letter-spacing: 2px;
-  margin-left: 120px;
-  background: #e1c9f0;
-  animation: fadeInRight 3s; }
-
-#footerIndex {
-  margin-top: 460px; }
+  body #micaScott {
+    color: #0d0438;
+    font-family: "caveat", cursive;
+    font-size: 600%;
+    margin: 40px 0px 20px 40px;
+    padding: 40px 0px 20px 20px; }
+  body #makeupBeautyArt {
+    color: #0d0438;
+    font-family: "Staatliches", cursive;
+    font-size: 200%;
+    letter-spacing: 2px;
+    margin-left: 120px;
+    background: #e1c9f0;
+    animation: fadeInRight 3s; }
+  body #footerIndex {
+    margin-top: 440px; }
 
 .gridCatalogos {
   margin-left: 40px;
@@ -126,9 +123,8 @@ body {
     transform: translateY(-10px); }
 
 .pediPorWa p {
-  font-size: 180%;
-  font-weight: 50%;
-  font-family: "caveat", cursive; }
+  font-size: 120%;
+  font-family: sans-serif; }
 
 .escalerita1 {
   margin-left: 100px; }
@@ -240,6 +236,12 @@ body {
 		margin: 50px 0px 40px 0px;*/
     animation: fadeInRight 1s; }
 
+/*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}*/
 @media (max-width: 575.98px) {
   /*Cursos*/
   .imagenClases {
@@ -292,9 +294,6 @@ body {
   .contacto {
     display: flex;
     flex-wrap: wrap; } }
-
-#footerIndex {
-  /*margin-top: 30px*/ }
 
 /*Contacto*/
 .contacto img {
@@ -461,3 +460,5 @@ body {
   background-color: pink;
   color: #0d0438;
   font-size: 130%; }
+
+/*@import "newform";*/

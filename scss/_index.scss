@@ -3,16 +3,15 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-}
 
-#micaScott {
+	#micaScott {
 	color: $colorPuple;
 	font-family: $fontTitle;
 	font-size: 600%;
 	margin: 40px 0px 20px 40px;
 	padding: 40px 0px 20px 20px;	
 }
-#makeupBeautyArt {
+	#makeupBeautyArt {
 	color: $colorPuple;
 	font-family: $fontNavbar;
 	font-size: 200%;
@@ -21,6 +20,10 @@ body {
 	background: $colorLilac;
 	animation: fadeInRight 3s;
 }
-#footerIndex {
-	margin-top: 460px;
+	#footerIndex {
+	margin-top: 440px;
+}	
 }
+
+
+
