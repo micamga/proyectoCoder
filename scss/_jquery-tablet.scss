@@ -38,8 +38,8 @@
 		animation: fadeInUp 1s;
 	}	
  }
-}
-/*.container {
+
+.container {
   position: relative;
  }
 
@@ -51,7 +51,7 @@
   transition: .5s ease;
   backface-visibility: hidden;
   margin-top: 10px;
-		margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .middle {
@@ -77,4 +77,5 @@
   background-color: $colorPinky;
   color: $colorPuple;
   font-size: 130%;
- }*/
+ }
+}
