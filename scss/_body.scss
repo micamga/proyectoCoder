@@ -3,20 +3,24 @@ body {
 	background-color: $colorWhite;
 }
 /*Header*/
+
 .navbar {
 	display: flex;
 	justify-content: flex-end;
 	padding:0;	
 	margin: auto;
-
-	li {
-	padding: 15px 25px 15px 25px;
-	letter-spacing:1.5px;
-	font-family: $fontNavbar;
-	&:hover {
-	background-color:rgba($colorLilac, 0.8);
-			}
-		}
+	.navbar-nav{
+		display: flex;
+		flex-wrap:wrap;
+		li {
+		padding: 15px 25px 15px 25px;
+		letter-spacing:1.5px;
+		font-family: $fontNavbar;
+		&:hover {
+		background-color:rgba($colorLilac, 0.8);
+}
+}
+}
 }
 #menu {
 	flex-grow: 0;
@@ -41,8 +45,8 @@ main {
 	}
 }
 .titulos__micaScott {
-	color: $colorPuple;
-	font-family: $fontTitle;
+	color: $colorPurple;
+	font-family: $fontNavbar;
 	font-size: 600%;
 	margin: 0px 0px 20px 20px;
 	padding: 0px 0px 20px 20px;
@@ -54,17 +58,17 @@ main {
 	margin-bottom: 40px;
 }
 li {
-	color: $colorPuple;
+	color: $colorPurple;
 	list-style-type: none;
 }
 a {
-	color: $colorPuple;
+	color: $colorPurple;
 	text-decoration: none;
 }
 
 
 h1	{
-	color:$colorPuple;	
+	color:$colorPurple;	
 }
 h2	{
 	margin: 15px 0px 15px 0px;
@@ -77,11 +81,13 @@ span	{
 }
 /*Cursos*/
 .imagenClases {
-	margin: 0px 0px 30px 40px;
+	display: block;
+	margin: auto;
+	margin-bottom: 40px;
 }
 /*Footer*/
 .geografia {
-	color:$colorPuple;
+	color:$colorPurple;
 	padding-left: 20px;
 }
 .navRedes li {
@@ -93,7 +99,7 @@ span	{
 }
 
 .copyright {
-	color: $colorPuple ; 
+	color: $colorPurple ; 
 	text-align: right;
 	font-size: 80%;
 	margin-right: 20px;

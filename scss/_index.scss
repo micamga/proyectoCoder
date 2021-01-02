@@ -5,19 +5,20 @@ body {
 	background-size: cover;
 
 	#micaScott {
-	color: $colorBlack;
-	font-family: $fontTitle;
+	color:$colorPinky;
+	background-color: rgba($colorPinky, 0.3);
+	font-family: $fontNavbar;
 	font-size: 600%;
-	margin: 40px 0px 20px 40px;
-	padding: 40px 0px 20px 20px;	
+	margin: 40px 0px 0px 0px;
+	padding: 40px 0px 40px 40px;	
 }
 	#makeupBeautyArt {
-	color: black;
+	color:$colorPurple;
 	font-family: $fontNavbar;
 	font-size: 200%;
 	letter-spacing: 2px; 
-	padding-left: 45vw;
-	background: rgba($colorWhite, 0.3);
+	text-align: right;
+	background:rgba($colorPinky, 0.3);
 	animation: fadeInUp 3s;
 }
 	#footerIndex {

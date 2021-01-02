@@ -8,12 +8,15 @@ body {
   justify-content: flex-end;
   padding: 0;
   margin: auto; }
-  .navbar li {
-    padding: 15px 25px 15px 25px;
-    letter-spacing: 1.5px;
-    font-family: "Staatliches", cursive; }
-    .navbar li:hover {
-      background-color: rgba(225, 201, 240, 0.8); }
+  .navbar .navbar-nav {
+    display: flex;
+    flex-wrap: wrap; }
+    .navbar .navbar-nav li {
+      padding: 15px 25px 15px 25px;
+      letter-spacing: 1.5px;
+      font-family: "Staatliches", cursive; }
+      .navbar .navbar-nav li:hover {
+        background-color: rgba(225, 201, 240, 0.8); }
 
 #menu {
   flex-grow: 0; }
@@ -34,7 +37,7 @@ main nav .breadcrumb {
 
 .titulos__micaScott {
   color: #0d0438;
-  font-family: "caveat", cursive;
+  font-family: "Staatliches", cursive;
   font-size: 600%;
   margin: 0px 0px 20px 20px;
   padding: 0px 0px 20px 20px; }
@@ -69,7 +72,9 @@ span {
 
 /*Cursos*/
 .imagenClases {
-  margin: 0px 0px 30px 40px; }
+  display: block;
+  margin: auto;
+  margin-bottom: 40px; }
 
 /*Footer*/
 .geografia {
@@ -94,18 +99,19 @@ body {
   background-attachment: fixed;
   background-size: cover; }
   body #micaScott {
-    color: #000000;
-    font-family: "caveat", cursive;
+    color: pink;
+    background-color: rgba(255, 192, 203, 0.3);
+    font-family: "Staatliches", cursive;
     font-size: 600%;
-    margin: 40px 0px 20px 40px;
-    padding: 40px 0px 20px 20px; }
+    margin: 40px 0px 0px 0px;
+    padding: 40px 0px 40px 40px; }
   body #makeupBeautyArt {
-    color: black;
+    color: #0d0438;
     font-family: "Staatliches", cursive;
     font-size: 200%;
     letter-spacing: 2px;
-    padding-left: 45vw;
-    background: rgba(255, 255, 255, 0.3);
+    text-align: right;
+    background: rgba(255, 192, 203, 0.3);
     animation: fadeInUp 3s; }
   body #footerIndex {
     margin-top: 440px; }
@@ -359,7 +365,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   #footerIndex {
-    margin-top: 530px; }
+    margin-top: 560px; }
   .gridCatalogos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

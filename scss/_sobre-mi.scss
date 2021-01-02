@@ -12,9 +12,9 @@
 	
 @for $i from 1 through 4 {
   .article#{$i} {
-  	grid-area: article#{$i}; 
-  	background-color: $colorLilac;
-	 justify-self: center;
+  grid-area: article#{$i}; 
+  background-color: $colorLilac;
+	justify-self: center;
 	align-self: center;
   }
 }
@@ -31,7 +31,7 @@
   transition: .5s ease;
   backface-visibility: hidden;
   margin-top: 10px;
-		margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .middle {
@@ -55,6 +55,6 @@
 
 .text {
   background-color: $colorPinky;
-  color: $colorPuple;
+  color: $colorPurple;
   font-size: 130%;
  }
