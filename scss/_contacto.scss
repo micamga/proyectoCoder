@@ -1,6 +1,5 @@
-
 #enviarFormulario {
-	margin-bottom: 25px;
+	margin: 30px 0px 5px 0px;
 }
 
 
@@ -8,7 +7,7 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items:center;
 	background-color: rgba($colorLilac, 0.8);
 
@@ -16,17 +15,17 @@
 	form {
 	background-color: $colorWhite;
 	line-height:2.5;
-	text-align: center;
+	text-align: left;
 	padding: 40px 40px 40px 40px;
 	margin: 40px 0px 40px 0px;
 }
 }
  	.imgContacto {
- 		margin: auto 30px;
+ 		margin: auto /*30px*/;
  		/*align-self: center;
 		padding: 40px 40px 40px 40px;
 		margin: 50px 0px 40px 0px;*/
-		animation: fadeInRight 1s;
+		animation: fadeInRight 3s;
 	}	
 }
 

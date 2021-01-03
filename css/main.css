@@ -15,17 +15,24 @@ body {
       padding: 15px 25px 15px 25px;
       letter-spacing: 1.5px;
       font-family: "Staatliches", cursive; }
-      .navbar .navbar-nav li:hover {
-        background-color: rgba(225, 201, 240, 0.8); }
 
 #menu {
   flex-grow: 0; }
 
 #menu, .navbar-toggler {
-  background-color: #ffffff; }
+  background-color: rgba(255, 192, 203, 0.8); }
 
 .navbar-toggler {
   margin: 15px; }
+
+.nav-link {
+  background-image: linear-gradient(#0d0438, #0d0438);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out; }
+  .nav-link:hover {
+    background-size: 100% 5px, auto; }
 
 /*Main*/
 main nav .breadcrumb {
@@ -100,23 +107,24 @@ body {
   background-size: cover; }
   body #micaScott {
     color: pink;
-    background-color: rgba(255, 192, 203, 0.3);
+    background-color: rgba(255, 192, 203, 0.2);
     font-family: "Staatliches", cursive;
     font-size: 600%;
     margin: 40px 0px 0px 0px;
     padding: 40px 0px 40px 40px; }
   body #makeupBeautyArt {
     color: #0d0438;
+    background-color: pink;
     font-family: "Staatliches", cursive;
     font-size: 200%;
     letter-spacing: 2px;
     text-align: right;
-    background: rgba(255, 192, 203, 0.3);
     animation: fadeInUp 3s; }
   body #footerIndex {
     margin-top: 440px; }
 
 .gridCatalogos {
+  background-color: #e1c9f0;
   margin-left: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -129,17 +137,18 @@ body {
 
 .pediPorWa p {
   font-size: 120%;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  text-align: center; }
 
-.escalerita1 {
-  margin-left: 100px; }
-
+/*.escalerita1 {
+	margin-left: 100px
+}
 .escalerita2 {
-  margin-left: 120px; }
-
+	margin-left: 120px
+}
 .escalerita3 {
-  margin-left: 140px; }
-
+	margin-left: 140px
+}*/
 .giftcards {
   display: inline-block;
   background: lavender;
@@ -184,8 +193,9 @@ body {
   align-self: center; }
 
 /*card*/
-.container {
-  position: relative; }
+/*.article1 {
+  position: relative;
+ }
 
 .image {
   opacity: 1;
@@ -195,7 +205,8 @@ body {
   transition: .5s ease;
   backface-visibility: hidden;
   margin-top: 10px;
-  margin-bottom: 10px; }
+	margin-bottom: 10px;
+}
 
 .middle {
   transition: .5s ease;
@@ -205,41 +216,44 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center; }
+  text-align: center;
+}
 
-.container:hover .image {
-  opacity: 0.3; }
+.article1:hover .image {
+  opacity: 0.3;
+}
 
-.container:hover .middle {
-  opacity: 1; }
+.article1:hover .middle {
+  opacity: 1;
+}
 
 .text {
-  background-color: pink;
-  color: #0d0438;
-  font-size: 130%; }
-
+  background-color: $colorPinky;
+  color: $colorPurple;
+  font-size: 130%;
+ }*/
 #enviarFormulario {
-  margin-bottom: 25px; }
+  margin: 30px 0px 5px 0px; }
 
 .contacto {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: rgba(225, 201, 240, 0.8); }
   .contacto .fondoFormulario form {
     background-color: #ffffff;
     line-height: 2.5;
-    text-align: center;
+    text-align: left;
     padding: 40px 40px 40px 40px;
     margin: 40px 0px 40px 0px; }
   .contacto .imgContacto {
-    margin: auto 30px;
+    margin: auto;
     /*align-self: center;
 		padding: 40px 40px 40px 40px;
 		margin: 50px 0px 40px 0px;*/
-    animation: fadeInRight 1s; }
+    animation: fadeInRight 3s; }
 
 /*{
 	margin: 0;
@@ -256,12 +270,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr); }
-  .escalerita1 {
-    margin-left: 10px; }
-  .escalerita2 {
-    margin-left: 10px; }
-  .escalerita3 {
-    margin-left: 10px; }
   /*Sobre mi*/
   .sobreMi {
     display: grid;
@@ -314,12 +322,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr); }
-  .escalerita1 {
-    margin-left: 10px; }
-  .escalerita2 {
-    margin-left: 10px; }
-  .escalerita3 {
-    margin-left: 10px; }
   /*Sobre mi*/
   .sobreMi {
     display: grid;
@@ -370,12 +372,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr); }
-  .escalerita1 {
-    margin-left: 40px; }
-  .escalerita2 {
-    margin-left: 40px; }
-  .escalerita3 {
-    margin-left: 40px; }
   .sobreMi {
     display: grid;
     grid-template-columns: 1fr;
@@ -390,7 +386,7 @@ body {
     .contacto img {
       padding: 40px 40px 40px 40px;
       margin: 0px 0px 40px 0px;
-      animation: fadeInUp 1s; }
+      animation: fadeInUp 3s; }
   .container {
     position: relative; }
   .image {
@@ -426,44 +422,39 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr); }
   .contacto {
-    background-color: lavender;
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: repeat(4, 1fr); } }
-
-/*card*/
-.container {
-  position: relative; }
-
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center; }
-
-.container:hover .image {
-  opacity: 0.3; }
-
-.container:hover .middle {
-  opacity: 1; }
-
-.text {
-  background-color: pink;
-  color: #0d0438;
-  font-size: 130%; }
+    grid-template-columns: repeat(4, 1fr); }
+  .form-group {
+    width: 20vw; }
+  /*sobre mi*/
+  .container {
+    position: relative; }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; }
+  .container:hover .image {
+    opacity: 0.3; }
+  .container:hover .middle {
+    opacity: 1; }
+  .text {
+    background-color: pink;
+    color: #0d0438;
+    font-size: 130%; } }
 
 /*@import "newform";*/

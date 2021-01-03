@@ -16,20 +16,27 @@ body {
 		padding: 15px 25px 15px 25px;
 		letter-spacing:1.5px;
 		font-family: $fontNavbar;
-		&:hover {
-		background-color:rgba($colorLilac, 0.8);
-}
-}
+		}
 }
 }
 #menu {
 	flex-grow: 0;
 }
 #menu, .navbar-toggler { 
-background-color: $colorWhite;
+background-color:rgba($colorPinky, 0.8);
 }
 .navbar-toggler {
 	margin: 15px;
+}
+.nav-link{
+  background-image: linear-gradient($colorPurple, $colorPurple);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+  &:hover {
+  	 background-size: 100% 5px, auto;
+}
 }
 /*Main*/
 main {

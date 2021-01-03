@@ -71,22 +71,25 @@
 		<section class="contacto container"> 
 			<div class="fondoFormulario">
 				<form>
-					<div>
-						<label for="nombre">¿Cuál es tu nombre?</label>
-						<input type="text" name="nombre" placeholder="Ana Banana">
-					</div>
-					<div>
-            			<label for="email">E-mail:</label>
-            			<input type="text" name="email" placeholder="ana@banana.com">
-            		</div>
-            		<textarea name="Comentarios" cols="40" rows="5">Dejanos tu mensaje...</textarea>
-            		<div id="enviarFormulario">
+					<div class="form-group">
+    					<label for="exampleFormControlInput1">¿Cuál es tu nombre?</label>
+    					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ana Banana">
+  					</div>
+  					<div class="form-group">
+    					<label for="exampleFormControlInput1">¿Cómo es tu mail?</label>
+    					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ana@banana.com">
+  					</div>
+   					<div class="form-group">
+    					<label for="exampleFormControlTextarea1">¿En qué te podemos ayudar?</label>
+   						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dejanos tu mensaje..."></textarea>
+  					</div>
+  					<div id="enviarFormulario">
             			<button type="button" class="btn btn-secondary">Enviar</button>
             		</div>
 				</form>
 			</div>
 			<div>
-				<img class="imgContacto" src="imagenes/m.jpg" alt="pigments">
+				<img class="imgContacto img-fluid" src="imagenes/m.jpg" alt="pigments">
 			</div>
 		</section>
 	</main>

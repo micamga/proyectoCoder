@@ -6,7 +6,7 @@ body {
 
 	#micaScott {
 	color:$colorPinky;
-	background-color: rgba($colorPinky, 0.3);
+	background-color: rgba($colorPinky, 0.2);
 	font-family: $fontNavbar;
 	font-size: 600%;
 	margin: 40px 0px 0px 0px;
@@ -14,11 +14,11 @@ body {
 }
 	#makeupBeautyArt {
 	color:$colorPurple;
+	background-color:$colorPinky;
 	font-family: $fontNavbar;
 	font-size: 200%;
 	letter-spacing: 2px; 
 	text-align: right;
-	background:rgba($colorPinky, 0.3);
 	animation: fadeInUp 3s;
 }
 	#footerIndex {

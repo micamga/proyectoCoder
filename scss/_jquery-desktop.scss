@@ -6,14 +6,14 @@
     grid-template-rows: repeat(2, 1fr);
 	} 
 	.contacto {
-	background-color: lavender;
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: repeat(4, 1fr);
 	}
+	.form-group{
+	width: 20vw;
 }
-
-/*card*/
+/*sobre mi*/
 .container {
   position: relative;
  }
@@ -53,3 +53,5 @@
   color: $colorPurple;
   font-size: 130%;
  }
+}
+

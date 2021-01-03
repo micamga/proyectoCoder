@@ -7,15 +7,7 @@
 	grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(4, 1fr);
 	}  
-	.escalerita1 {
-	margin-left: 40px
-	}
-	.escalerita2 {
-	margin-left: 40px
-	}
-	.escalerita3 {
-	margin-left: 40px
-	}
+	
 	.sobreMi {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -35,7 +27,7 @@
  	img {
 		padding: 40px 40px 40px 40px;
 		margin: 0px 0px 40px 0px;
-		animation: fadeInUp 1s;
+		animation: fadeInUp 3s;
 	}	
  }
 
