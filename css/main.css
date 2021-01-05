@@ -27,12 +27,12 @@ body {
 
 .nav-link {
   background-image: linear-gradient(#0d0438, #0d0438);
-  background-size: 0 5px, auto;
+  background-size: 0 2px, auto;
   background-repeat: no-repeat;
   background-position: center bottom;
   transition: all .2s ease-out; }
   .nav-link:hover {
-    background-size: 100% 5px, auto; }
+    background-size: 100% 2px, auto; }
 
 /*Main*/
 main nav .breadcrumb {
@@ -193,9 +193,17 @@ body {
   align-self: center; }
 
 /*card*/
-/*.article1 {
-  position: relative;
- }
+.article1 {
+  position: relative; }
+
+.article2 {
+  position: relative; }
+
+.article3 {
+  position: relative; }
+
+.article4 {
+  position: relative; }
 
 .image {
   opacity: 1;
@@ -205,8 +213,7 @@ body {
   transition: .5s ease;
   backface-visibility: hidden;
   margin-top: 10px;
-	margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
 .middle {
   transition: .5s ease;
@@ -216,22 +223,37 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
+  text-align: center; }
 
 .article1:hover .image {
-  opacity: 0.3;
-}
+  opacity: 0.3; }
 
 .article1:hover .middle {
-  opacity: 1;
-}
+  opacity: 1; }
+
+.article2:hover .image {
+  opacity: 0.3; }
+
+.article2:hover .middle {
+  opacity: 1; }
+
+.article3:hover .image {
+  opacity: 0.3; }
+
+.article3:hover .middle {
+  opacity: 1; }
+
+.article4:hover .image {
+  opacity: 0.3; }
+
+.article4:hover .middle {
+  opacity: 1; }
 
 .text {
-  background-color: $colorPinky;
-  color: $colorPurple;
-  font-size: 130%;
- }*/
+  background-color: pink;
+  color: #0d0438;
+  font-size: 130%; }
+
 #enviarFormulario {
   margin: 30px 0px 5px 0px; }
 

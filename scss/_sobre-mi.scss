@@ -19,7 +19,16 @@
   }
 }
 /*card*/
-/*.article1 {
+.article1 {
+  position: relative;
+ }
+.article2 {
+  position: relative;
+ }
+.article3 {
+  position: relative;
+ }
+.article4 {
   position: relative;
  }
 
@@ -53,8 +62,32 @@
   opacity: 1;
 }
 
+.article2:hover .image {
+  opacity: 0.3;
+}
+
+.article2:hover .middle {
+  opacity: 1;
+}
+
+.article3:hover .image {
+  opacity: 0.3;
+}
+
+.article3:hover .middle {
+  opacity: 1;
+}
+
+.article4:hover .image {
+  opacity: 0.3;
+}
+
+.article4:hover .middle {
+  opacity: 1;
+}
+
 .text {
   background-color: $colorPinky;
   color: $colorPurple;
   font-size: 130%;
- }*/
+ }
