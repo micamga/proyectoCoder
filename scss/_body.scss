@@ -3,8 +3,9 @@ body {
 	background-color: $colorWhite;
 }
 /*Header*/
-
 .navbar {
+	position:fixed;
+	z-index: 100;
 	display: flex;
 	justify-content: flex-end;
 	padding:0;	
@@ -45,6 +46,7 @@ main {
 			display: flex;
 			justify-content: flex-end;
 			background-color: $colorWhite;
+			padding-top:80px;
 			&:hover{
 			color: $colorLilac;
 			}
