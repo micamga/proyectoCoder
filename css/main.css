@@ -5,6 +5,7 @@ body {
 /*Header*/
 .navbar {
   position: fixed;
+  top: 0;
   z-index: 100;
   display: flex;
   justify-content: flex-end;
@@ -278,7 +279,7 @@ body {
     /*align-self: center;
 		padding: 40px 40px 40px 40px;
 		margin: 50px 0px 40px 0px;*/
-    animation: fadeInRight 3s; }
+    animation: rotateInUpRight 1s; }
 
 /*{
 	margin: 0;
