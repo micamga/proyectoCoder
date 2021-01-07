@@ -9,7 +9,7 @@ body {
 	background-color: rgba($colorPinky, 0.2);
 	font-family: $fontNavbar;
 	font-size: 600%;
-	margin: 40px 0px 0px 0px;
+	margin: 90px 0px 0px 0px;
 	padding: 40px 0px 40px 40px;	
 }
 	#makeupBeautyArt {
@@ -22,7 +22,10 @@ body {
 	animation: fadeInUp 3s;
 }
 	#footerIndex {
-	margin-top: 440px;
+	position: fixed;
+	bottom: 0;
+	left:0;
+	right: 0;
 }	
 }
 
