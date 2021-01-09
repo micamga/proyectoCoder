@@ -324,6 +324,10 @@ body {
   padding: 40px 40px 40px 40px;
   margin: 10px 0px 40px 0px; }
 
+/*Footer*/
+#footerIndex {
+  position: relative; }
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   /*Cursos*/
   .imagenClases {
