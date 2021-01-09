@@ -23,7 +23,7 @@ body {
   flex-grow: 0; }
 
 #menu, .navbar-toggler {
-  background-color: rgba(255, 192, 203, 0.8); }
+  background-color: pink; }
 
 .navbar-toggler {
   margin: 15px; }
@@ -61,7 +61,9 @@ main nav .breadcrumb {
 
 li {
   color: #0d0438;
-  list-style-type: none; }
+  list-style-type: none;
+  font-size: 110%;
+  padding: 5px; }
 
 a {
   color: #0d0438;
@@ -78,7 +80,7 @@ h2 {
 span {
   color: #0d0438;
   background-color: pink;
-  font-size: 20px;
+  font-size: 120%;
   font-family: "Staatliches", cursive; }
 
 /*Cursos*/
@@ -86,6 +88,13 @@ span {
   display: block;
   margin: auto;
   margin-bottom: 40px; }
+
+/*Portfolio*/
+.calesita {
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(225, 201, 240, 0.8);
+  padding: 40px 0px 40px 0px; }
 
 /*Footer*/
 .geografia {
@@ -96,7 +105,7 @@ span {
   display: inline-block;
   padding: 10px; }
   .navRedes li:hover {
-    transform: translateY(10px); }
+    transform: scale(1.1); }
 
 .copyright {
   color: #0d0438;
@@ -140,22 +149,14 @@ body {
   padding: 20px;
   align-content: space-evenly; }
   .gridCatalogos div a img:hover {
-    transform: translateY(-10px); }
+    transform: scale(1.1); }
 
 .pediPorWa p {
   font-size: 120%;
   font-family: sans-serif;
-  text-align: center; }
+  text-align: left;
+  margin-left: 40px; }
 
-/*.escalerita1 {
-	margin-left: 100px
-}
-.escalerita2 {
-	margin-left: 120px
-}
-.escalerita3 {
-	margin-left: 140px
-}*/
 .giftcards {
   display: inline-block;
   background: lavender;
@@ -179,37 +180,28 @@ body {
   grid-area: article1;
   background-color: #e1c9f0;
   justify-self: center;
-  align-self: center; }
+  align-self: center;
+  position: relative; }
 
 .article2 {
   grid-area: article2;
   background-color: #e1c9f0;
   justify-self: center;
-  align-self: center; }
+  align-self: center;
+  position: relative; }
 
 .article3 {
   grid-area: article3;
   background-color: #e1c9f0;
   justify-self: center;
-  align-self: center; }
+  align-self: center;
+  position: relative; }
 
 .article4 {
   grid-area: article4;
   background-color: #e1c9f0;
   justify-self: center;
-  align-self: center; }
-
-/*card*/
-.article1 {
-  position: relative; }
-
-.article2 {
-  position: relative; }
-
-.article3 {
-  position: relative; }
-
-.article4 {
+  align-self: center;
   position: relative; }
 
 .image {
@@ -278,8 +270,7 @@ body {
     padding: 40px 40px 40px 40px;
     margin: 40px 0px 40px 0px; }
   .contacto .imgContacto {
-    margin: auto;
-    animation: rotateInUpRight 1s; }
+    margin: auto; }
 
 @media (max-width: 575.98px) {
   /*Cursos*/
@@ -331,8 +322,7 @@ body {
 /*Contacto*/
 .contacto img {
   padding: 40px 40px 40px 40px;
-  margin: 10px 0px 40px 0px;
-  animation: fadeInRight 1s; }
+  margin: 10px 0px 40px 0px; }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   /*Cursos*/
@@ -379,11 +369,7 @@ body {
   /*Contacto*/
   .contacto {
     display: flex;
-    flex-wrap: wrap; }
-  img {
-    /*padding: 40px 40px 40px 40px;
-		margin: 10px 0px 40px 0px;*/
-    animation: fadeInRight 1s; } }
+    flex-wrap: wrap; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   #footerIndex {
@@ -476,5 +462,3 @@ body {
     background-color: pink;
     color: #0d0438;
     font-size: 130%; } }
-
-/*@import "newform";*/
