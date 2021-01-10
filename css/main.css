@@ -241,7 +241,7 @@ body {
   position: relative; }
 
 .article3 {
-  z-index: 1000; }
+  z-index: 3; }
 
 .article2 {
   grid-area: article2;
@@ -251,7 +251,7 @@ body {
   position: relative; }
 
 .article3 {
-  z-index: 1000; }
+  z-index: 3; }
 
 .article3 {
   grid-area: article3;
@@ -261,7 +261,7 @@ body {
   position: relative; }
 
 .article3 {
-  z-index: 1000; }
+  z-index: 3; }
 
 .article4 {
   grid-area: article4;
@@ -271,7 +271,7 @@ body {
   position: relative; }
 
 .article3 {
-  z-index: 1000; }
+  z-index: 3; }
 
 .image {
   opacity: 1;
