@@ -1,6 +1,38 @@
-.gridCatalogos { 
+.tienda {
 	background-color: $colorLilac;
+	#skincare{
+		padding-top: 40px;
+		padding-left:40px;
+	}
+	.pediPorWa p {
+	font-size: 120%;
+	font-family: sans-serif;
+	text-align: left;
 	margin-left: 40px;
+	margin-right: 40px;
+	}
+	#giftcards{
+		padding-left:40px;
+		padding-bottom:20px;
+		p{
+			margin-bottom:20px;
+		}
+		.giftcards {
+		display: inline-block;
+		background: lavender;
+		padding: 5px;
+		li {
+		 	text-decoration: none;
+			line-height:1.5;
+		 &:hover {
+			background: $colorPinky;
+				}
+			}
+		}
+	}
+}
+.gridCatalogos {
+	margin-left: 20px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 10px; 
@@ -17,23 +49,5 @@
     	}
     }
 }
-.pediPorWa p {
-	font-size: 120%;
-	font-family: sans-serif;
-	text-align: left;
-	margin-left: 40px;
-}
 
-.giftcards {
-	display: inline-block;
-	background: lavender;
-	padding: 5px;
 
- li {
- 	text-decoration: none;
-	line-height:1.5;
- &:hover {
-	background: $colorPinky;
-}
-}
-}

@@ -191,9 +191,34 @@ body {
     .gridFesteja .festeja li {
       margin: 10px 0px 10px 0px; }
 
+.tienda {
+  background-color: #e1c9f0; }
+  .tienda #skincare {
+    padding-top: 40px;
+    padding-left: 40px; }
+  .tienda .pediPorWa p {
+    font-size: 120%;
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px; }
+  .tienda #giftcards {
+    padding-left: 40px;
+    padding-bottom: 20px; }
+    .tienda #giftcards p {
+      margin-bottom: 20px; }
+    .tienda #giftcards .giftcards {
+      display: inline-block;
+      background: lavender;
+      padding: 5px; }
+      .tienda #giftcards .giftcards li {
+        text-decoration: none;
+        line-height: 1.5; }
+        .tienda #giftcards .giftcards li:hover {
+          background: pink; }
+
 .gridCatalogos {
-  background-color: #e1c9f0;
-  margin-left: 40px;
+  margin-left: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
@@ -202,22 +227,6 @@ body {
   align-content: space-evenly; }
   .gridCatalogos div a img:hover {
     transform: scale(1.1); }
-
-.pediPorWa p {
-  font-size: 120%;
-  font-family: sans-serif;
-  text-align: left;
-  margin-left: 40px; }
-
-.giftcards {
-  display: inline-block;
-  background: lavender;
-  padding: 5px; }
-  .giftcards li {
-    text-decoration: none;
-    line-height: 1.5; }
-    .giftcards li:hover {
-      background: pink; }
 
 .sobreMi {
   display: grid;
@@ -325,6 +334,9 @@ body {
     margin: auto; }
 
 @media (max-width: 575.98px) {
+  /*Index*/
+  #micaScott {
+    font-size: 400%; }
   /*Servicios*/
   /*Social*/
   .gridSocial {
@@ -417,6 +429,9 @@ body {
   margin: 10px 0px 40px 0px; }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /*Index*/
+  #micaScott {
+    font-size: 400%; }
   /*Servicios*/
   /*Social*/
   .gridSocial {
