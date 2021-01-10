@@ -72,6 +72,10 @@ li{
 	list-style-type: none;
 	font-size: 110%;
 	padding: 5px;
+	ol{
+		margin: 0px;
+		padding: 0px;
+	}
 }
 a{
 	color: $colorPurple;
@@ -88,31 +92,6 @@ span{
 	@include colors;
 	font-size: 120%;
 	font-family: $fontNavbar;
-}
-/*Cursos*/
-.imagenClases{
-	display: block;
-	margin: auto;
-	margin-bottom: 40px;
-}
-/*servicios*/
-
-	.gridFestejaConNosotros{
-	display: grid;
-	grid-template-columns: 2fr 3fr;
-	grid-template-rows: 2fr;
-	background-color: $colorLilac;
-	.imgFesteja{
-		padding: 40px;
-	}
-	.festeja{
-		text-align: left;
-		margin-top: 40px;
-		margin-right: 40px;
-		li{
-			margin: 10px 0px 10px 0px;
-		}
-	}
 }
 
 /*Portfolio*/

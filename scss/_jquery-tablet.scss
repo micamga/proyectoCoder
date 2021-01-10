@@ -1,23 +1,58 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
+  	/*index*/
   	#footerIndex {
 	margin-top: 560px;
 	}
-	/*Servicios*/
-.gridFestejaConNosotros{
+/*Servicios*/
+/*Social*/
+.gridSocial{
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 3fr 2fr;
-	/*background-color: $colorLilac;*/
-	.imgFesteja{
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-		padding-top: 40px;
+	grid-template-rows: 2fr;
+	background-color: $colorLilac;
+	.imagenSocial{
+		padding: 40px;
 	}
-		.festeja{
+	.social{
 		text-align: left;
-		margin-top: 5px;
-		margin-right: 20px;
+		margin-top: 40px;
+		margin-right: 40px;
+			li{
+			margin: 10px 0px 10px 0px;
+		}
+	}
+}
+/*editorial*/
+.gridEditorial{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 2fr;
+	background-color: $colorLilac;
+	.editorial{
+		text-align: left;
+		margin-top: 40px;
+		margin-right: 40px;
+			li{
+			margin: 10px 0px 10px 0px;
+		}
+	}
+	.imagenEditorial{
+		padding: 40px;
+	}
+}
+/*festejá con nosotros*/
+.gridFesteja{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 2fr;
+	background-color: $colorLilac;
+	.imgFesteja{
+		padding: 40px;
+	}
+	.festeja{
+		text-align: left;
+		margin-top: 40px;
+		margin-right: 40px;
 			li{
 			margin: 10px 0px 10px 0px;
 		}

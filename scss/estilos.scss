@@ -9,9 +9,17 @@ $fontH2: 'Playfair Display SC', serif ;
 	color:$colorPurple; 
 	background-color:$colorPinky;
 }
-
+@mixin description{
+		text-align: left;
+		margin-top: 40px;
+		margin-right: 40px;
+			li{
+			margin: 10px 0px 10px 0px;
+		}
+	}
 @import "body";
 @import "index";
+@import "servicios";
 @import "tienda-online";
 @import "sobre-mi";
 @import "contacto";

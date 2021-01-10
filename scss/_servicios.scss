@@ -1,28 +1,55 @@
-/*servicios*/
+/*Servicios*/
 /*Cursos*/
-.imagenClases{
+.gridCursos{
+	background-color: $colorLilac;
+	.imagenClases{
 	display: block;
 	margin: auto;
-	margin-bottom: 40px;
+	padding: 40px;
 }
-/*social*/
-
+}
+/*Social*/
+.gridSocial{
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	grid-template-rows: 3fr;
+	background-color: $colorLilac;
+	.imagenSocial{
+		padding: 40px;
+	}
+	.social{
+		text-align: left;
+		margin-top: 40px;
+		margin-right: 40px;
+			li{
+			margin: 10px 0px 10px 0px;
+		}
+	}
+}
 /*editorial*/
 .gridEditorial{
 	display: grid;
-	grid-template-columns: 2fr 4fr;
-	grid-template-rows: 4fr;
+	grid-template-columns: 2fr 3fr;
+	grid-template-rows: 3fr;
 	background-color: $colorLilac;
-	.imagenClases{
-		/*padding: 40px;*/
+	.editorial{
+		text-align: left;
+		margin-top: 40px;
+		margin-right: 40px;
+			li{
+			margin: 10px 0px 10px 0px;
+		}
+	}
+	.imagenEditorial{
+		padding: 40px;
 	}
 }
 /*festejá con nosotros*/
-.gridFestejaConNosotros{
+.gridFesteja{
 	display: grid;
-	grid-template-columns: 2fr 3fr;
+	grid-template-columns: 3fr 2fr;
 	grid-template-rows: 2fr;
-	/*background-color: $colorLilac;*/
+	background-color: $colorLilac;
 	.imgFesteja{
 		padding: 40px;
 	}
