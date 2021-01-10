@@ -1,5 +1,8 @@
 @media (min-width: 992px) and (max-width: 2000px) {
-/*Index*/
+ /*Index*/
+	#micaScott {
+	font-size: 600%;
+}
 #footerIndex {
 	position: fixed;
 	bottom: 0;
@@ -12,14 +15,7 @@
 	grid-template-columns: repeat(4, 1fr); 
     grid-template-rows: repeat(2, 1fr);
 	} 
-	.contacto {
-	display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: repeat(4, 1fr);
-	}
-	.form-group{
-	width: 20vw;
-}
+		
 /*sobre mi*/
 .container {
   position: relative;
@@ -61,4 +57,7 @@
   font-size: 130%;
  }
 }
-
+/*Contacto*/
+.form-group{
+	width: 20vw;
+}

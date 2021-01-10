@@ -1,14 +1,4 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
-/*Index*/
-	#micaScott {
-	font-size: 400%;
-}
-#footerIndex {
-	position: relative;
-	bottom: 0;
-	left:0;
-	right: 0;
-}	
 /*Servicios*/
 /*Social*/
 .gridSocial{
@@ -121,10 +111,4 @@
   color: $colorPurple;
   font-size: 130%;
  }
-
-/*Contacto*/
-.contacto {
-	display: flex;
-	flex-wrap:wrap;	
-	} 
 }

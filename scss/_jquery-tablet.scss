@@ -1,5 +1,8 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
-  	/*index*/
+  	/*Index*/
+	#micaScott {
+	font-size: 600%;
+}
   	#footerIndex {
 	position: fixed;
 	bottom: 0;
@@ -78,18 +81,6 @@
 	"article3"
 	"article4";
 	}
-	.contacto {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-content:center;
- 	img {
-		padding: 40px 40px 40px 40px;
-		margin: 0px 0px 40px 0px;
-	}	
- }
-
 .container {
   position: relative;
  }
@@ -130,3 +121,19 @@
   font-size: 130%;
  }
 }
+/*Contacto*/
+	.contacto {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content:center;
+	.form-group{
+	width: 20vw;
+	}
+ 	img {
+		padding: 40px 40px 40px 40px;
+		margin: 0px 0px 40px 0px;
+	}	
+ }
+

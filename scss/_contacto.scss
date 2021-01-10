@@ -1,7 +1,4 @@
-#enviarFormulario {
-	margin: 30px 0px 5px 0px;
-}
- .contacto {
+.contacto {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -16,8 +13,11 @@
 	text-align: left;
 	padding: 40px 40px 40px 40px;
 	margin: 40px 0px 40px 0px;
-}
-}
+	}
+	}
+	#enviarFormulario {
+	margin: 30px 0px 5px 0px;
+	}
  	.imgContacto {
  		margin: auto;
  		 	}
