@@ -3,6 +3,30 @@
 .imagenClases {
 	margin: 0px 0px 30px 0px;
 }
+/*Servicios*/
+.maquillajeEditorial{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 3fr 2fr;
+	/*background-color: $colorLilac;*/
+}
+.gridFestejaConNosotros{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 2fr 3fr;
+	background-color: $colorLilac;
+	.imgFesteja{
+		padding: 20px;
+	}
+		.festeja{
+		text-align: left;
+		margin-top: 20px;
+		margin-right: 20px;
+			li{
+			margin: 10px 0px 10px 0px;
+		}
+	}
+}
 	/*Catalogos*/	
 	.gridCatalogos { 
 	display: grid;

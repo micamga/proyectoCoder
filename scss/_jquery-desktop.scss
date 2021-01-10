@@ -1,5 +1,12 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+/*servicios*/
+#footerFesteja{
+	position: fixed;
+	bottom:0;
+	left:0;
+	right:0;
+}	
+/*tienda online*/
 	.gridCatalogos  { 
 	display: grid;
 	grid-template-columns: repeat(4, 1fr); 

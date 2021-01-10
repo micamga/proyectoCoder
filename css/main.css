@@ -89,6 +89,21 @@ span {
   margin: auto;
   margin-bottom: 40px; }
 
+/*servicios*/
+.gridFestejaConNosotros {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 2fr;
+  background-color: #e1c9f0; }
+  .gridFestejaConNosotros .imgFesteja {
+    padding: 40px; }
+  .gridFestejaConNosotros .festeja {
+    text-align: left;
+    margin-top: 40px;
+    margin-right: 40px; }
+    .gridFestejaConNosotros .festeja li {
+      margin: 10px 0px 10px 0px; }
+
 /*Portfolio*/
 .calesita {
   justify-content: space-evenly;
@@ -276,6 +291,25 @@ body {
   /*Cursos*/
   .imagenClases {
     margin: 0px 0px 30px 0px; }
+  /*Servicios*/
+  .maquillajeEditorial {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 2fr;
+    /*background-color: $colorLilac;*/ }
+  .gridFestejaConNosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 3fr;
+    background-color: #e1c9f0; }
+    .gridFestejaConNosotros .imgFesteja {
+      padding: 20px; }
+    .gridFestejaConNosotros .festeja {
+      text-align: left;
+      margin-top: 20px;
+      margin-right: 20px; }
+      .gridFestejaConNosotros .festeja li {
+        margin: 10px 0px 10px 0px; }
   /*Catalogos*/
   .gridCatalogos {
     display: grid;
@@ -332,6 +366,20 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr); }
+  /*Servicios*/
+  .gridFestejaConNosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 3fr;
+    /*background-color: $colorLilac;*/ }
+    .gridFestejaConNosotros .imgFesteja {
+      padding: 20px; }
+    .gridFestejaConNosotros .festeja {
+      text-align: left;
+      margin-top: 20px;
+      margin-right: 20px; }
+      .gridFestejaConNosotros .festeja li {
+        margin: 10px 0px 10px 0px; }
   /*Sobre mi*/
   .sobreMi {
     display: grid;
@@ -374,10 +422,29 @@ body {
 @media (min-width: 768px) and (max-width: 991.98px) {
   #footerIndex {
     margin-top: 560px; }
+  /*Servicios*/
+  .gridFestejaConNosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 2fr;
+    /*background-color: $colorLilac;*/ }
+    .gridFestejaConNosotros .imgFesteja {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 40px; }
+    .gridFestejaConNosotros .festeja {
+      text-align: left;
+      margin-top: 5px;
+      margin-right: 20px; }
+      .gridFestejaConNosotros .festeja li {
+        margin: 10px 0px 10px 0px; }
+  /*tienda online*/
   .gridCatalogos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr); }
+  /*sobre mi*/
   .sobreMi {
     display: grid;
     grid-template-columns: 1fr;
@@ -422,6 +489,13 @@ body {
     font-size: 130%; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /*servicios*/
+  #footerFesteja {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  /*tienda online*/
   .gridCatalogos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
