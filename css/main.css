@@ -244,6 +244,9 @@ body {
   align-self: center;
   position: relative; }
 
+.article3 {
+  z-index: 1000; }
+
 .article2 {
   grid-area: article2;
   background-color: #e1c9f0;
@@ -252,11 +255,17 @@ body {
   position: relative; }
 
 .article3 {
+  z-index: 1000; }
+
+.article3 {
   grid-area: article3;
   background-color: #e1c9f0;
   justify-self: center;
   align-self: center;
   position: relative; }
+
+.article3 {
+  z-index: 1000; }
 
 .article4 {
   grid-area: article4;
@@ -264,6 +273,9 @@ body {
   justify-self: center;
   align-self: center;
   position: relative; }
+
+.article3 {
+  z-index: 1000; }
 
 .image {
   opacity: 1;
