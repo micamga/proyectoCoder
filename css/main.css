@@ -606,19 +606,6 @@ body {
     color: #0d0438;
     font-size: 130%; } }
 
-/*Contacto*/
-.contacto {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: center; }
-  .contacto .form-group {
-    width: 40vw; }
-  .contacto img {
-    padding: 40px 40px 40px 40px;
-    margin: 0px 0px 40px 0px; }
-
 @media (min-width: 992px) and (max-width: 2000px) {
   /*Index*/
   #micaScott {
@@ -673,4 +660,6 @@ body {
   .text {
     background-color: pink;
     color: #0d0438;
-    font-size: 130%; } }
+    font-size: 130%; }
+  .form-group {
+    width: 20vw; } }
